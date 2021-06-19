@@ -5,49 +5,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DPet Shop</title>
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
     <header>
-        <p> Grandes ofertas en comederos.</p>
-            <ul>
+        <div class="header-top">
+            Grandes ofertas en comederos.
+            <ul type=none>
                 <li>Español</li>
                 <li>ARG$</li>
             </ul>
-            <img src="img/Cat.png" alt="Imagen gato">
-            <h1>Front Cat&Dog</h1>
-            <img src="img/Dog.png" alt="Imagen perro">
-            <nav><ul>
-                <li>Categorías</li>
-                <li>Pets</li>
-                <li>Nosotros</li>
-                <li>Contactanos</li>
-            </ul>
-        </nav>
+        </div>
+        <div class="header-bottom">
+            <h1><img src="img/Cat.png" alt="Imagen gato">
+                Front <span style=color:white>Cat&Dog</span>
+                <img src="img/Dog.png" alt="Imagen perro">
+            </h1>
+
+            <nav>
+                <ul class="nav-main" type=none>
+                    <li><a href="#"></a><i class="fas fa-paw"></i>Categorías</li>
+                    <li><a href="#"></a><i class="fas fa-paw"></i>Pets</li>
+                    <li><a href="#"></a><i class="fas fa-paw"></i>Nosotros</li>
+                    <li><a href="#"></a><i class="fas fa-paw"></i>Contactanos</li>
+            </nav>
+        </div>
     </header>
     <main>
-        <section><img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="Imagen comedero">
-    </main>
-    <p>¡Es un placer tenerte aquí!</p>
-    <p>¡Comederos en descuento!</p>
-    <p>Comederos</p>
-    </section>
-    <section><img src="img/pawprint 1.png" alt="Imagen huella">
-        <h2>Productos destacados</h2>
-        <p>Comederos  -  Accesorios  -  Comida</p>
-        <img src="img/churrasquito.png" alt="Foto de churrasquito">
-        <p>Juguete churrasquito</p>
-        <p>$150</p>
-        <img src="img/comedero.png" alt="Foto de comedero">
-        <p>Comedero para perro</p>
-        <p>$250</p>
-        <img src="img/Huesito.png" alt="Foto juguete huesito">
-        <p>Juguete Huesito</p>
-        <p>$650</p>
+        <section>
+            <p class="titulo1">¡Es un placer tenerte aquí!</p>
         </section>
-        <hr>
-        <footer align="center">Todos los derechos reservados Front End</footer>
-        </body>
+        <section class="heroe">
+            <p>¡Comederos en descuento!</p>
+            <span class="titulo3">COMEDEROS</span>
+        </section>
+        <section>
+            <h2>Productos destacados</h2>
+            <p>Comederos - Accesorios - Comida</p>
+        </section>
+
+        <section class="articulos">
+            <img src="img/churrasquito.png" alt="Foto de churrasquito">
+            <p>Juguete churrasquito</p>
+            <p class="precios">$150</p>
+            <img src="img/comedero.png" alt="Foto de comedero">
+            <p>Comedero para perro</p>
+            <p class="precios">$250</p>
+            <img src="img/Huesito.png" alt="Foto juguete huesito">
+            <p>Juguete Huesito</p>
+            <p class="precios">$650</p>
+        </section>
+
+        <footer>
+            <div class="footer-top">
+                <div>
+                    <img src="img/IconoLocalizacion.png" alt="ícono localización">
+                    <p class="span-footer">Localidad:</p>
+                    <span>Buenos Aires, Argentina</span>
+                </div>
+                <div>
+                    <img src="img/IconoTelefono.png" alt="ícono teléfono">
+                    <p class="span-footer">Teléfono:</p> 444-4444
+                </div>
+                <div>
+                    <img src="img/IconoEmail.png" alt="ícono e-mail">
+                    <p class="span-footer">Correo electrónico:</p>
+                </div>
+                    <h4><img src="img/Cat.png" alt="Imagen gato">
+                        Front <span style=color:white>Cat&Dog</span>
+                        <img src="img/Dog.png" alt="Imagen perro">
+                    </h4>
+                
+                <div class="footer-bottom">
+                    <p>Todos los derechos reservados.</p>
+                </div>
+        </footer>
+    </main>
+</body>
 
 </html>

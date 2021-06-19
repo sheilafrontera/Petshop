@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto;
+}
+
+/*Estilos del header*/
+.header-top {
+    background-color: black;
+    color: white;
+}
+.header-bottom {
+    background-color: orange;
+}
+
+.nav-main li
+{
+    color: white;
+}
+
+/*Estilos main*/
+
+.heroe {
+    width: 1500;
+    height: 900px;
+background-image: url(../img/bowl-and-pet-daities-on-green-background.png);
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+}
+.titulo1 {
+    font-size: 30px;
+    text-align: center;
+}
+.titulo3 {
+    color: white;
+    background-color: orange;
+}
+
+.articulos {
+    background-color: #E5E5E5;
+}
+.precios {
+    color: orange;
+}
+
+/*Estilos footer*/
+.footer-top {
+    background-color: #3C2313;
+    color: white;
+
+}
+.span-footer {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-bottom { 
+    background-color: orange;
+    text-align: center;
+}
