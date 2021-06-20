@@ -4,6 +4,10 @@ body {
     font-family: Roboto;
 }
 
+ul {
+    list-style: none;
+}
+
 /*Estilos del header*/
 .header-top {
     background-color: black;
@@ -13,8 +17,7 @@ body {
     background-color: orange;
 }
 
-.nav-main li
-{
+.nav-main a {
     color: white;
 }
 
@@ -23,10 +26,10 @@ body {
 .heroe {
     width: 1500;
     height: 900px;
-background-image: url(../img/bowl-and-pet-daities-on-green-background.png);
-background-repeat: no-repeat;
-background-size: cover;
-text-align: center;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
 }
 .titulo1 {
     font-size: 30px;
